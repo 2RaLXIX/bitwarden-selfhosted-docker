@@ -1,15 +1,18 @@
-# 🔐 Bitwarden Self-Hosted (Docker + Nginx)
+🔐 Vaultwarden Self-Hosted Deployment
 
-## 📌 Overview
-
-This project demonstrates deployment of a self-hosted Bitwarden (Vaultwarden) instance using Docker and Nginx as a reverse proxy.
-
-## 🧱 Architecture
-
-* Vaultwarden (Bitwarden backend)
-* Docker Compose
-* Nginx reverse proxy
-* Persistent storage (volumes)
+Deployed a self-hosted Bitwarden-compatible password manager using Docker Compose with secure reverse proxy setup.
+Key features:
+Containerized Vaultwarden service
+Nginx reverse proxy with HTTPS (wildcard SSL)
+Environment-based secret management (.env)
+Healthchecks and auto-restart policies
+Internal Docker networking (no direct container exposure)
+Persistent storage for encrypted vault data
+Tech stack:
+Docker / Docker Compose
+Nginx
+TLS/SSL (wildcard certificates)
+Linux
 
 ## ⚙️ Tech Stack
 
